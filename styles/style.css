@@ -1,0 +1,720 @@
+*
+{
+  box-sizing: border-box;
+  font-family: 'Paytone One',  sans-serif;
+  padding: 0;
+  margin: 0; 
+}
+
+
+.container-1
+{
+  width: 1000px;
+  padding-left: 65px;
+  padding-right: 65px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container
+{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+
+.header
+{
+  margin-left: auto;
+  margin-right: auto;
+  height: 780px;
+  background-image: url(../images/Rectangle\ 1.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.hero
+{
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+.menu ul
+{
+  display: flex;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+.menu ul li a
+{
+  margin-left: 50px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  transition: all 0.5s ease;
+}
+
+.list
+{
+  background-color: transparent;
+  position: absolute;
+  width: 994px;
+  height: 1681px;
+  left: 100px;
+  top: 188px;
+  background: linear-gradient(180deg, rgba(50, 42, 39, 0) 0%, rgba(45, 40, 40, 0.85) 33.85%, #2D2828 49.48%, #2D2828 68.75%, #2D2828 82.29%, #2D2828 100%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  box-shadow: -15px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.box h1
+{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 89px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-top: 76px;
+}
+
+.box h4
+{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.box p
+{
+  width: 432px;
+  margin-top: 30px;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: #FFFFFF;
+}
+
+.box form input
+{
+  width: 291px;
+  height: 36px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+  padding-left: 20px;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 25px;
+  font-family: Pavanam;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.box form button
+{
+  font-family: Pavanam;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  width: 123px;
+  height: 36px;
+  border: 2px solid #FF1640;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background-color: rgba(0,0,0,0.1);
+  color: rgba(255, 255, 255, 0.4);
+  margin-left: 20px;
+}
+
+.hr
+{
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  width: 992px;
+  margin-top: 79px;
+}
+
+.logos ul
+{
+  margin-top: 30px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logos ul li
+{
+  transition: all 0.6s ease;
+}
+
+
+.box-2
+{
+  margin-top: 60px;
+  display: flex;
+}
+
+.box-2 .list-img1
+{
+  transform: translateX(10px) translateY(40px);
+}
+
+.box-2 .list-img2
+{
+  transform: translateX(-320px);
+}
+
+.box-2 .list-img3
+{
+  transform: translateX(248px) translateY(40px);
+}
+
+.box-3
+{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: 180px;
+}
+
+.box-3 h3
+{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+
+.box-3 .dashed
+{
+  width: 200px;
+  border-bottom: 2px dashed white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.box-3 button 
+{
+  padding: 2px 5px 5px 35px;
+  background: linear-gradient(180deg, #864A23 0%, #6A3A1B 100%);
+  border-radius: 20px;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 149.8%;
+  color: #FFFFFF;
+  margin-left: 5px;
+  position: relative;
+}
+
+.box-3 button img
+{
+  position: absolute;
+  left: 8px;
+  top: 4px;
+}
+
+
+/* .box-3 button::before
+{
+  content: "";
+  background-image: url(../images/typing.png);
+  background-size: 15px 15px;
+} */
+
+.box-4
+{
+  display: flex;
+  margin-top: 100px;
+}
+
+.box-4-left
+{
+  width: 455px;
+  height: 190px;
+}
+
+.left-top
+{
+  display: flex;
+  align-items: center;
+}
+
+.left-top .one
+{
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+.left-top b
+{
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: #FFFFFF;
+  margin-left: 9px;
+}
+
+.left-top button
+{
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #2D2828;
+  width: 131px;
+  height: 35px;
+  border-radius: 50px;
+  margin-left: 100px;
+  background-color: grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 4px;
+  transition: all 0.5s ease;
+}
+
+.left-bottom
+{
+  width: 450px;
+  height: 130px;
+  background-image: url(../images/small\ oboy.png);
+  position: relative;
+  margin-top: 30px;
+}
+
+.left-bottom img
+{
+  position: absolute;
+  top: 14px;
+  left: 17px;
+}
+
+.left-bottom .icon-img
+{
+  position: absolute;
+  top: 50px;
+  left: 53px;
+}
+
+.left-bottom h6
+{
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: #2D2828;
+  position: absolute;
+  top: 14px;
+  left: 89px;
+}
+
+.left-bottom b
+{
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: rgba(45, 40, 40, 0.7);
+  position: absolute;
+  top: 36px;
+  left: 89px;
+}
+
+.left-bottom h5
+{
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 149.8%;
+  color: #2D2828;
+  position: absolute;
+  top: 19px;
+  right: 29px;
+}
+
+.left-bottom p
+{
+  width: 251px;
+  height: 42px;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 149.8%;
+  color: #2D2828;
+  position: absolute;
+  bottom: 23px;
+  right: 16px;
+}
+
+.box-4-right
+{
+  margin-left: 74px;
+  margin-top: 50px;
+}
+
+.box-4-right h4
+{
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 149.8%;
+  color: #FFFFFF;
+  margin-bottom: 19px;
+}
+
+.box-4-right p
+{
+  width: 315px;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 149.8%;
+  color: #FFFFFF;
+}
+
+.left-top1
+{
+  display: flex; 
+  align-items: center;
+}
+
+.list-span
+{
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: #FFFFFF;
+}
+
+.left-top1 button
+{
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #2D2828;
+  width: 131px;
+  height: 35px;
+  border-radius: 50px;
+  margin-left: 260px;
+  background-color: grey;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-bottom: 4px;
+  padding-left: 5px;
+}
+
+.left-top1 button div
+{
+  width: 60px;
+  height: 30px;
+  background-color: #2a2c3e;
+  border-radius: 50px;
+  padding-left: 1px;
+}
+
+.left-top1 button div span
+{
+  display: flex;
+  width: 29px;
+  height: 29px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+
+/* ====================================== */
+
+.middle-section
+{
+  height: 1900px;
+  background-image: url(../images/middle-oboy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-5
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1100px;
+  padding-bottom: 50px;
+}
+
+.box-6 ul
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-6 ul li
+{
+  width: 200px;
+  list-style-type: none;
+}
+
+.div
+{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box-6 ul li p
+{
+  margin-top: 40px;
+  width: 250px;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: #000000;
+}
+
+
+.box-7
+{
+  height: 560px;
+  background-image: url(../images/footer\ \(1\).png);
+  margin-top: -85px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.elips
+{
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/footer\ \(1\).png);
+  position: absolute;
+  border-radius: 50%;
+  top: -100px;
+  left: 505px;
+}
+
+.elips-1
+{
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: -75px;
+  left: 530px;
+}
+
+.box-7-left
+{
+  width: 600px;
+  padding-top: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.box-7-left h5
+{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 63px;
+  color: #FFFFFF;
+  margin-right: 50px;
+}
+
+.box-7-left ul
+{
+  display: flex;
+  list-style-type: none;
+  margin-top: 100px;
+}
+
+.box-7-left ul li
+{
+  margin-left: 50px;
+}
+
+.box-7-left ul li h6
+{
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: #FFFFFF;
+  margin-bottom: 22px;
+}
+
+.box-7-left ul li a
+{
+  text-decoration: none;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 200%;
+  color: #FFFFFF;
+  margin-top: 20px;
+  transition: all 0.6s ease; 
+}
+
+.box-7-right
+{
+  position: absolute;
+  right: 1px; 
+  top: 230px;
+  text-align: right;
+}
+
+.box-7-right ul
+{
+  display: flex;
+  list-style-type: none;
+}
+
+.box-7-right ul li
+{
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+
+
+.box-7-right b
+{
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 149.8%;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.box-7-right p
+{
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 149.8%;
+  text-align: right;
+  color: #FFFFFF;
+  margin-top: 11px;
+}
+
+.thanks
+{
+  width: 300px;
+  height: 40px;
+  background: #FFFFFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 450px;
+  top: 450px;
+}
+/* ============================================== */
+/* hoverlarni boshlanishi */
+
+.menu ul li a:hover
+{
+  border-top: 1px solid green;
+  border-bottom: 1px solid  blue;
+  color:red;
+}
+
+.logos ul li:hover
+{
+  transform: scale(0.8)
+}
+
+.box-7-left ul li a:hover
+{
+  border-bottom: 1px solid rgb(71, 240, 4);
+  color:rgb(234, 220, 28);
+}
+
+.box form button:hover
+{
+  background-color: rgb(188, 198, 152);
+  color: red;
+}
+
+.box form button:active
+{
+  background-color: blue;
+  color: rgb(33, 220, 16);
+}
+
+.left-top button:hover
+{
+  background-color: rgb(73, 133, 202);
+}
+
+.left-top button:active
+{
+  background-color:red;
+}
+
+.list-button2:active div span
+{
+  transform: translateX(30px);
+
+}
+
+.list-button2:active div
+{
+  background-color: red;
+}
+
+.list-button2:hover
+{
+  background-color: rgb(73, 133, 202);
+}
